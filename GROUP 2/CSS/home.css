@@ -1,0 +1,232 @@
+/* HOME CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* NAV BAR DESIGN */
+nav {
+    height: max-content;
+    background-color: pink;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-family: 'times';
+    box-shadow: 0 0.5rem 0.5rem rgba(231, 136, 189, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+@media (max-width: 1000px){
+    nav{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        align-items: center;
+    }
+    nav div p{
+        font-size: larger;
+        margin-right: 10%;
+
+    }
+    nav div img{
+        display: none;
+    };
+    nav div p span{
+        font-size: medium;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+        padding:10px;
+        row-gap: 20px;
+
+    }
+}
+nav div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+nav div img{
+    height: 90px;
+    width: 100px;
+    border-radius: 50% 50%;
+    margin: 10px 20px;
+}
+
+nav div p {
+    font-size: 70px;
+    font-style: oblique;
+    text-shadow: -10px 1px 7px black;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+nav div p span{
+    color: rgb(26, 22, 22);
+    text-shadow: 10px 1px 7px rgb(243, 93, 93);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+    font-size: 25px;
+}
+
+nav ul li a {
+    background-color: rgba(240, 128, 128, 0.3);
+    padding: 5px 10px;
+    border-radius: 10px 10px;
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: red;
+    transition: 0.3s ease-out;
+    box-shadow: 0 5px 10px black;
+}
+
+/* NAV BAR DESIGN UP */
+/* DIV PART STYLE */
+.part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    column-gap: 50px;
+    align-items: center;
+    margin: 200px 50px;
+    margin-bottom: 29%;
+
+}
+@media(max-width: 1000px){
+    .part .left{
+        font-size: medium;
+        display: block;
+    }
+}
+.part .left h1 {
+    font-size: 80px;
+    text-align: left;
+}
+
+.part .left h1 span {
+    color: red;
+}
+
+.part .left p {
+    font-size: 24px;
+    color: rgb(68, 64, 64);
+    margin: 15px 0;
+}
+.part .left p span{
+    font-weight: bolder;
+    font-size: 30px;
+    animation: fade-inout 3s infinite alternate;
+}
+@keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+
+.part .left button{
+    padding: 15px 15px;
+    border: none;
+    background-color: pink;
+    border-radius: 15px 15px;
+}
+.part .left button a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.part .left button:hover{
+    transform: translateY(-3px);
+}
+.address{
+    height: 400px;
+}
+.address img{
+    height: 100%;
+    float: right;
+    margin-right: 50px;
+}
+
+/* FOOTER STYLE */
+footer{
+    font-size: 25px;
+    color: red;
+    background-color: pink;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+}
+.scroll-top {
+    float: right;
+    bottom: 10%;
+    right: 3%;
+    background-color: red;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: red;
+    animation: grow 1s linear infinite alternate;
+    cursor: pointer;
+    display: none;
+    width: 25px;
+  }
+  
+  .scroll-top img {
+    width: 100%;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .scroll-top.show {
+    display: block;
+  }
+.member{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color: grey;
+    margin: 0 20px;
+}
+.member div{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.member div img{ 
+    width: 80px;
+}
+.member div h1{
+    flex: 1;
+    font-size: 20px;
+}
+.member h1{
+    font-family: 'Times New Roman';
+}

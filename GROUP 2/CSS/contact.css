@@ -1,0 +1,209 @@
+nav{
+    margin-bottom: 100px;
+}
+.form{
+    margin-top: 100px;
+    color: rgb(68, 64, 64);
+}
+.form form h1, .two h1{
+    font-size: 50px;
+    color: red;
+    font-family: 'times';
+    text-transform: capitalize ;
+    padding: 30px 10px;
+}
+.whole{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.form form{
+    margin:  15px 30px;
+}
+.form form label{
+    font-size: 30px;
+}
+.form form input{
+    padding: 10px 10px;
+    width: 500px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 20px 0;
+    border: 3px solid red;
+}
+.form form textarea{
+    width: 520px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 0 20px;
+    font-size: 40px;
+    padding: 20px 5px;
+}
+.opts{
+    display: flex;  
+    width: 500px;  
+    justify-content: center;
+}
+.opts button{
+    border-radius: 0 20px;
+    margin-top: 10px;
+    width: 50%;
+    border:3px solid red;
+    height: 30px;
+    font-size: 20px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+.socials div img{
+    margin: 0 10px;
+    width: 40px;
+}
+.socials div span{
+    font-size: 25px;
+    color:rgb(218, 83, 83);
+    font-weight:  bold;
+    font-family: cursive;
+    padding-right: 10px;
+    font-style: italic;
+}
+.hold{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: 10px 20px;
+    column-gap: 15px;
+    padding: 0 10px;
+}
+.hold .one, .hold .two, .hold .three, .hold .four{
+    flex: 1;
+}
+.hold .one{
+    display: flex;
+    flex-direction: column;
+}
+.one h1{
+    font-size: 40px;
+    color: red;
+    font-style: oblique;
+}
+.one h1 span{
+    color: black;
+}
+.one p{
+    font-size: 16px;
+    color: rgb(68, 64, 64);
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.two h2{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.locate{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.locate img{
+    width: 40px;
+}
+.locate img{
+    width: 30px;
+}
+.locate p{
+    font-size: 16px;
+}
+.get{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+.get a{
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(68, 64, 64);
+}
+.num{
+    align-items: flex-start;
+    font-size: 16px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.num a{
+    text-decoration: none;
+    color:rgb(68, 64, 64);
+}
+.three, .four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three h2, .four h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.three ul, .four ul{
+    list-style-type: none;
+    font-size: 16px;
+}
+.three ul li a, .four ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+#withus{
+    flex: 1;
+    margin-right: 30px;
+}
+.two{
+    width: 100%;
+}
+.download{
+    background-color: lightpink;
+    height: 300px;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    padding: 0 20px;
+}
+.ii{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.ii h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.ii p{
+    font-size: 20px;
+    padding: 0 20px;
+}
+.download img{
+    width: auto;
+    height: 90%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.apps{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}

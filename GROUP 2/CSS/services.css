@@ -1,0 +1,207 @@
+.order {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.free,
+.del,
+.door {
+    flex: 1;
+    border: 2px solid lightcoral;
+    height: 270px;
+    padding: 10px;
+}
+
+.free:hover,
+.del:hover,
+.door:hover {
+    box-shadow: -10px 9px 5px lightcoral;
+    transform: translateY(-5px);
+}
+
+.div-one {
+    text-align: center;
+    width: 1000px;
+}
+
+.div-one h1 {
+    font-size: 50px;
+}
+
+.div-one p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.div-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px;
+    column-gap: 40px;
+}
+
+.free span,
+.del span,
+.door span,
+.rid span {
+    background-color: lightcoral;
+    border-radius: 10px 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+.del p,
+.free p,
+.door p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.rid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+    margin: 100px 0;
+
+}
+
+.rid h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.rid p {
+    font-size: 20px;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.rid img {
+    width: 500px;
+    margin-left: 10%;
+}
+
+.ccnt {
+    flex: 1;
+    margin-left: 10%;
+}
+
+.ccnt span a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.ccnt span:hover {
+    transform: translateY(-5px);
+    box-shadow: -3px 5px 10px rgb(73, 54, 54);
+}
+
+.riding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 40px;
+    margin: 0 50px;
+}
+
+.riding div img {
+    flex: 200px;
+}
+
+.driv {
+    flex: 1;
+}
+
+.driv h1 {
+    font-size: 50px;
+}
+
+.driv p {
+    font-size: 20px;
+}
+
+.down {
+    background-color: lightcoral;
+    height: 300px;
+    margin: 10% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.down img {
+    height: 500px;
+    margin-left: 7%;
+}
+
+.rrr {
+    flex: 1;
+}
+
+.rrr h1 {
+    font-size: 50px;
+}
+
+.rrr p {
+    font-size: 20px;
+}
+
+.rrr div {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    margin: 10px 30px;
+
+}
+
+.rrr div img {
+    width: 100%;
+    height: 100%;
+}
+
+.mmsg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+    margin: 0 20px;
+    margin-top: 4%;
+    color: black;
+
+}
+
+.mmsg div {
+    flex: 1;
+    border: 2px solid coral;
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+}
+.mmsg div h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+.mmsg div p{
+    text-align: left;
+}
+.message{
+    text-align: center;
+    margin-top: 20%;
+}
+.message h1{
+    font-size: 50px;
+    color: red;
+
+}

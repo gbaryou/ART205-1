@@ -1,0 +1,98 @@
+@media (max-width: 1000px){
+    nav{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        align-items: center;
+    }
+    nav div p{
+        font-size: xxxx-large;
+        margin-right: 10%;
+
+    }
+    nav div img{
+        display: none;
+    };
+    nav div p span{
+        font-size: medium;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 17px;
+        padding:10px;
+        row-gap: 20px;}
+
+    }
+
+    .orderr{
+        margin-top: 10%;
+    }
+    .orderr h1{
+        font-size: 50px;
+        font-family: 'times';
+        text-align: center;
+    }
+    .cook1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 200px;
+        column-gap: 20px;
+        margin: 2% 20px;
+
+    }
+    .cook1 div{
+        flex: 1;
+        background-color: grey;
+        height: 100%;
+        border-radius: 5%;
+    
+    }
+    .ssbar h1{
+        font-size: 20px;
+        text-decoration: underline;
+        margin-top: 5px;
+        text-transform: uppercase;
+        color: red;
+        text-shadow: -3px 3px 10px black;
+    }
+    .ssbar img{
+        width: 100%;
+    }
+
+    .mmsg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 50px;
+        margin: 0 20px;
+        margin-top: 4%;
+        color: black;
+    
+    }
+    
+    .mmsg div {
+        flex: 1;
+    }
+    .mmsg div h1{
+        font-size: 30px;
+        color: black;
+        text-align: left;
+    }
+    .mmsg div p{
+        text-align: left;
+    }
+    .message{
+        text-align: center;
+        margin-top: 20%;
+    }
+    .message h1{
+        font-size: 50px;
+        color: red;
+    
+    }
